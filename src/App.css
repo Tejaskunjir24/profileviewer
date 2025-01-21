@@ -1,0 +1,246 @@
+
+.home-container{
+  text-align: center;
+  padding: 20px;
+}
+
+.home-header{
+  margin-bottom: 30px;
+}
+
+.home-header h1{
+  font-size: 2.5rem;
+  color: #333;
+
+  
+}
+.home-header p{
+  font-size: 1.2rem;
+}
+main{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+
+
+
+
+ .profile-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  padding: 20px;
+  max-width: 300px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.profile-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.profile-card .profile-info {
+  padding: 10px 0;
+}
+
+.profile-card h2 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.profile-card p {
+  font-size: 1rem;
+  color: #666;
+  margin: 10px 0;
+}
+
+.profile-card button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.profile-card button:hover {
+  background-color: #45a049;
+}
+ /* Map Component */
+.map-container {
+  width: 100%;
+  height: 400px; /* Adjust as needed */
+   margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+} 
+
+.map-container iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 8px;
+}
+ /* Profile Details Page */
+.profile-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.profile-details h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.profile-details img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.profile-details p {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.profile-details .address {
+  font-size: 1rem;
+  color: #777;
+}
+
+.profile-details button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  margin-top: 20px;
+  transition:background-color 0.3s ease;
+}
+
+.profile-details button:hover {
+  background-color: #45a049;
+}
+
+ /* Admin Dashboard */
+.admin-dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.admin-dashboard h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.admin-dashboard form {
+  width: 100%;
+  max-width: 600px;
+}
+
+.admin-dashboard input,
+.admin-dashboard textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.admin-dashboard button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.admin-dashboard button:hover {
+  background-color: #45a049;
+}
+/* Search Bar */
+.search-bar {
+  width: 100%;
+  max-width: 400px;
+  padding: 12px;
+  margin: 20px auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+  background-color: #fff;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+ /* Loading Spinner */
+.spinner {
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+ /* Responsive Design */
+@media (max-width: 768px) {
+  .profile-card {
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  .map-container {
+    height: 300px;
+  }
+
+  .profile-details {
+    padding: 20px;
+  }
+
+  .admin-dashboard {
+    padding: 20px;
+  }
+}
+body{
+  background-color: #c9d2cf;
+}
+

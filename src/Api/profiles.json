@@ -1,0 +1,22 @@
+[
+    {
+      "id": 1,
+      "name": "John Doe",
+      "photo": "https://img.icons8.com/?size=100&id=23280&format=png&color=000000",
+      "description": "Software Developer",
+      "address": "berlin",
+      "contact": "john.doe@example.com",
+      "interests": "Coding, Hiking, Traveling",
+      "biography": "John has been working as a software developer for over 5 years..."
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "photo": "https://img.icons8.com/?size=100&id=13042&format=png&color=000000",
+      "description": "Graphic Designer",
+      "address":"london",
+      "contact": "jane.smith@example.com",
+      "interests": "Design, Photography, Music",
+      "biography": "Jane is a creative graphic designer with a passion for visual arts..."
+    }
+]
